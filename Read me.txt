@@ -1,0 +1,50 @@
+# Enterprise Network Lab – Cisco Packet Tracer
+
+This project is a multi-site enterprise network simulation designed using Cisco Packet Tracer.
+
+## 📌 Project Overview
+- Two branches: **Ankara & Istanbul**
+- Inter-branch routing
+- Centralized internet access via Istanbul router
+
+## 🧩 Network Components
+- 2 Routers
+- Multiple Layer 2 Switches
+- VLAN-based departmental segmentation
+- DMZ network with DNS & Web servers
+
+## 🔧 Technologies & Concepts
+- VLAN & Trunking
+- Router-on-a-Stick
+- DHCP (per department)
+- DNS & Web Server configuration
+- Access Control Lists (ACL)
+- DMZ Architecture
+
+## 🌐 IP Addressing
+**Ankara Branch**
+- IT: 192.168.10.0/24
+- Management: 192.168.20.0/24
+- Sales: 192.168.30.0/24
+- DMZ: 192.168.40.0/24
+
+**Istanbul Branch**
+- HR: 192.168.50.0/24
+- Sales: 192.168.60.0/24
+- Management: 192.168.70.0/24
+
+## 🧪 Testing & Verification
+- Successful inter-VLAN routing
+- DHCP address assignment verified
+- DNS resolution via `www.siberiz.net`
+- ACL-based traffic restriction validated
+
+## 📸 Screenshots
+See `/screenshots` folder for topology and test outputs.
+
+## 🛠 Tools
+- Cisco Packet Tracer
+
+## 📬 Contact
+Created by Mehmet Aşkın  
+LinkedIn: *(https://www.linkedin.com/in/mehmetaskin/)*
